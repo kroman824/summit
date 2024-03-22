@@ -1,0 +1,35 @@
+.nav-link:hover {
+  text-decoration: underline;
+  color: #2176FF;
+}
+
+.btn {
+  border: 1px solid #2176FF;
+  background-color: #736b92;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  padding: 15px;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background: none;
+}
+
+.btn:active {
+  border: 2px solid #ffffff;
+  font-size: 17px;
+}
+
+.activity:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: .4s;
+  background-color: #ffffff;
+  color: #2176FF;
+}
+
+.activity:active {
+  border: 2px solid #2176FF;
+}
